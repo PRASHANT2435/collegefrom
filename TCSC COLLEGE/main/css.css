@@ -1,0 +1,39 @@
+
+.bar{
+    text-align: center;
+    background-color: azure;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ ul li {
+    display: inline-flex;
+    width: 100px;
+    margin: 1px;
+    padding: 1px;
+
+  }
+
+.sub-manu-1{
+    display: none;
+    background-color:azuer;
+
+
+}
+.bar ul li:hover .sub-manu-1{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.bar ul li:hover .sub-manu-1 ul li{
+    display: block;
+    margin: 5px;
+    background-color:azuer;
+}
+
+  
+
+
